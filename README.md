@@ -13,7 +13,7 @@ The project Template can be used to build bigger projects
 
 ## Live Application URL
 
-### https://aditya-sridhar.github.io/simple-reactjs-app
+### 
 This URL has the application deployed in
 
 ## Prerequisites
@@ -29,7 +29,7 @@ npm install -g create-react-app
 ```
 ## Live Application URL
 
-The Application is deployed in https://aditya-sridhar.github.io/simple-reactjs-app
+
 
 Click on the link to see the application
 
@@ -55,13 +55,23 @@ The Application Runs on **localhost:3000**
 
 #### Components
 
-1. **Customers** Component : This Component displays a list of customers. This Component gets the data from a json file in assets folder
+1. **App** Component : This Component is entry point of react appliation and main container componet which is rendered in index.html and also contains routing for this app.
+      https://reactrouter.com/en/main/start/tutorial
 
-2. **CustomerDetails** Component : This Component Displays the details of the selected customer. This Component gets its data from a json file in assets folder as well. This Component is the Child Component of *Customers* Component
+3. **MainContainer** Component : This Component Displays the details of all videos and list in two seperate components  VideoContainer and buttonlist
+
+4. **VideoContainer** Component : This component uses following react concepts to handle data .
+                      1. Props handling  https://legacy.reactjs.org/docs/components-and-props.html
+                      2. List display -- creation of key  https://legacy.reactjs.org/docs/lists-and-keys.html
+                      3. React hooks : useEffect https://legacy.reactjs.org/docs/hooks-effect.html
+                      4. Api call
+
+5. **ButtonList** Component : This component contains all categories for youtube videos .
+6. **CommentsContainer** Component : This component demonstrates how we can use power of recursion to have infinite comments for user .
 
 #### HTTP client
 
-**axios** library is used to make HTTP Calls
+Fetch data apis are  used to make HTTP Calls
 
 #### URL
 

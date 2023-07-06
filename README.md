@@ -60,13 +60,10 @@ The Application Runs on **localhost:3000**
 
 3. **MainContainer** Component : This Component Displays the details of all videos and list in two seperate components  VideoContainer and buttonlist
 
-4. **VideoContainer** Component : This component uses following react concepts to handle data .
-                      1. Props handling -- https://legacy.reactjs.org/docs/components-and-props.html
-   
-                      2. List display -- creation of key  https://legacy.reactjs.org/docs/lists-and-keys.html
-   
-                      3. React hooks : useEffect https://legacy.reactjs.org/docs/hooks-effect.html
-   
+4. **VideoContainer** Component : This component uses following react concepts to handle data 
+                      1. Props handling -- https://legacy.reactjs.org/docs/components-and-props.html 
+                      2. List display -- creation of key  https://legacy.reactjs.org/docs/lists-and-keys.html 
+                      3. React hooks : useEffect https://legacy.reactjs.org/docs/hooks-effect.html 
                       4. Api call
 
 6. **ButtonList** Component : This component contains all categories for youtube videos .
